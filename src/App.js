@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import ExpenseItem from './components/ExpenseItem';
+import ExerciseComponent from './components/ExerciseComponent';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>Lets get started</code> 
+          <code>Lets get started</code>
+          <ExpenseItem></ExpenseItem>
+          <ExerciseComponent></ExerciseComponent>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer" 
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }
